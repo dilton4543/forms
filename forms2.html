@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Registration form</title>
+    <style>
+        body{
+            width: 40%;
+            border: 1px solid black;
+            margin-left: 390px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-left: 35px;">Student Registeration Form</h1>
+    <p style="margin-left: 35px;">Fill out the form for registration</p>
+    <hr style="width: 86%;>
+    <form action="" method="post">
+        <label style="margin-left: 35px;"for="firstname">Name</label><br><br>
+        <input style="margin-left: 35px; width: 40%;" type="text" name="firstname" id="firsname" placeholder="First"> &nbsp; 
+        <input style="width: 41%;" type="text" name="lastname" id="lastname" placeholder="Last"> <br><br>
+        <label style="margin-left: 35px;" for="birthdate">Birth Date</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label style="margin-left: 8%;" for="Gender">Gender</label><br><br>
+        <input style="width: 40%; margin-left: 35px;" type="date" name="date" id="date">&nbsp;&nbsp;&nbsp;
+        <select style="width: 42%;" name="Gender" id="Gender" required>
+            <option value="">Please select </option>
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+            <option value="Gay">Gay</option>
+            <option value="Bi-sexual">Bi-sexual</option>
+            <option value="Others">Others</option>
+        </select> <br><br>
+        <label style="margin-left: 35px;" for="Address">Address</label><br><br>
+        <input style="width: 84.5%; margin-left: 35px;" type="text" name="addressline1" id="addressline1" placeholder="Address line1"><br><br>
+        <input style="width: 84.5%; margin-left: 35px;" type="text" name="addressline2" id="addressline2" placeholder="Address line2"><br><br>
+        <input style="margin-left: 35px; width: 40%;"type="text" name="city" id="city" placeholder="city">&nbsp;
+        <select style="width: 43.5%;" name="Region" id="Region" required>
+            <option value="">Region</option>
+            <option value="Africa">Africa</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+            <option value="Asia">Asia</option>
+            <option value="Central America">Central America</option>
+            <option value="Australia">Australia</option>
+        </select> <br><br>
+        <input style="margin-left: 35px; width: 40%;" type="text" name="postal/zipcode" id="postal/zipcode" placeholder="Postal / Zip Code">&nbsp;
+        <select style="width: 43.5%;" name="Country" id="country" required>
+            <option value="United states">United states</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Canada">Canada</option>
+            <option value="Uk">Uk</option>
+            <option value="Somalia">Somalia</option>
+            <option value="Japan">Japan</option>
+        </select><br><br>
+        <label style="margin-left: 35px;" for="Email">Email</label><br><br>
+        <input style="width: 85.5%; margin-left: 35px;" type="email" name="Email" id="Email" placeholder="john.doe@example.com"><br><br>
+        <label style="margin-left: 35px;" for="Phone">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label style="margin-left: 30px;" for="workphone">Work Phone</label><br><br>
+        <input style="margin-left: 35px; width: 40.5%;" type="tel" name="tel" id="tel" placeholder="(201 555-0123)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>&nbsp; 
+        <input style="width: 41.5%;" type="tel" name="tel" id="tel" placeholder="(201) 555-0123"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+        <label style="margin-left: 35px;" for="company">Company</label><br><br>
+        <input style="width: 85.5%; margin-left: 35px;" type="text" name="company" id="company" placeholder="ACME LTD"><br><br>
+        <label style="margin-left: 35px;" for="Courses">Courses</label><br><br>
+        <select  style="margin-left: 35px; width: 87%;" name="Gender" id="Gender" required>
+            <option value="">Please select </option>
+            <option value="Maths">Maths</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+        <label  style="margin-left: 35px;" for="comments">Comments</label><br><br>
+        <textarea style="margin-left: 35px;" name="" id="" cols="57" rows="1"></textarea> <br><br>
+        <input style="padding: 4px; background-color: white; border: 1px solid black; margin-left: 35px;margin-bottom: 40px;" type="reset" name="clear fields" id="clearfield" value="Clear Fields"> &nbsp;
+        <input style="padding: 4px; background-color: black; color: white;" type="submit" name="submitapp" id="submitapp" value="Submit Application">
+    </form>
+</body>
+</html>

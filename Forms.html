@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>19 & DANGEROUS</title>
+</head>
+<body>
+    <h1 style="font-size: 70px;color: brown;"><i><b>AYRA STAR</b></i></h1>
+    <p id="danger" style="font-size: 50px; color: brown;"><i><b>19 & Dangerous</b></i></p>
+    <ul>
+        <li><p style="font-size: 20px;color: brown;"><b>Please login to your account or continue with google ?</b></p></li>
+    </ul>
+    <form action="" method="post"><!--get passes the forms in the websites url.. while post hides all the users information filled it is better to use post-->
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="enter your first name" value="Lotacukwu" readonly required><br><br>
+        <label for="middlename">Middle Name:</label><br>
+        <input type="text" id="middle" name="middle" placeholder="enter your middle name" required><br><br>
+        <label for="lastname">Last name</label><br>
+        <input type="text" id="lastname" name="lastname" placeholder="enter your last name" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email"  id="email" name="email" placeholder="enter your email" required><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="please enter password">
+        <p>Gender</p>
+        <label for="male">male</label>
+        <input type="radio" value="male" name="gender" id="male">
+        <label for="female">female</label>
+        <input type="radio" value="female" name="gender" id="female"> <br> <br>
+        <button id="enter" style="font-family: cursive;">submit</button>
+        <p>Qualification</p>
+        <br>
+        <label for="bsc">B.sc</label>
+        <input type="checkbox" value="bsc" name="Qualification" id="bsc">
+        <label for="msc">M.sc</label>
+        <input type="checkbox" value="msc" name="Qualification" id="msc"> <br> <br>
+        <label for="color">Color</label><br>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="cv">upload Cv</label><br>
+        <input type="file" name="cv" id="cv"> <br> <br>
+        <label for="Range">Range</label><br>
+        <input type="range" name="range" id="range"><br><br>
+        <label for="date">Date of birth</label><br>
+        <input type="date" name="date" id="date"> <br><br>
+        <label for="country">Nationality</label> <br>
+        <select name="Country" id="country" required>
+            <option value="">select a country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Canada">Canada</option>
+            <option value="Uk">Uk</option>
+            <option value="Somalia">Somalia</option>
+            <option value="US">US</option>
+        </select> <br><br>
+
+        <label for="search">Search google</label><br>
+        <input type="search" name="search" id="search"> &nbsp;
+        <input type="button" value="submit"><br><br>
+        <label for="name">Name</label> <br>
+        <input type="text" name="name" id="name">
+        <input type="image" src="/image/authorize.png" alt="submit" width="20px"><br>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" id="" cols="40" rows="5" placeholder="please type your comments"></textarea>
+        <br><br>
+        <input type="submit" value="submit"> <br>
+        <input type="reset" value="reset form">
+    </form>
+    <h1><b><i>OR</i></b></h1>
+    <ul>
+        <li><b>New to 19 & Dangerous ? sign-up by clicking the button below</b></p>
+        </li>
+    </ul>
+    <button id="signup">sign-up</button>
+</body>
+</html>

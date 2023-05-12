@@ -1,0 +1,41 @@
+body{
+    background-image: url(/image/IMG_E4033.JPG);
+    background-size: cover;
+}
+#firstname{
+    color: darksalmon;
+    font-family: cursive;
+    border-radius: 150px;
+}
+#middle{
+    color: darksalmon;
+    font-family: cursive;
+    border-radius: 150px;
+}
+#lastname{
+    color: darksalmon;
+    font-family: cursive;
+    border-radius: 150px;
+}
+#email{
+    color: darksalmon;
+    font-family: cursive;
+    border-radius: 150px;
+}
+#password{
+    color: darksalmon;
+    font-family: cursive;
+    border-radius: 150px;
+}
+#danger{
+    margin-left: 850px;
+}
+#enter{
+    background-color: grey;
+    border-radius: 150px;
+}
+#signup{
+    background-color: grey;
+    font-family: cursive;
+    border-radius: 150px;
+}
